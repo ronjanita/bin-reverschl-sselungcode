@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace binaerercodeverschluesselung_RoNi
+{
+    class Program
+    {
+        static void Main()
+        {
+            BinaryToText binaryToText = new BinaryToText();
+            TextToBinary textToBinary = new TextToBinary();
+        }
+    }
+}

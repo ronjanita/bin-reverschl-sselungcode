@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace binaerercodeverschluesselung
+namespace binaerercodeverschluesselung_RoNi
 {
-    class TextToBinary
+    internal class TextToBinary
     {
     }
 }
