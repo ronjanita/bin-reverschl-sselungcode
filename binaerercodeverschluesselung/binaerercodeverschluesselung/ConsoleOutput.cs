@@ -8,5 +8,9 @@ namespace binaerercodeverschluesselung
 {
     internal class ConsoleOutput
     {
+        public ConsoleOutput()
+        {
+
+        }
     }
 }
