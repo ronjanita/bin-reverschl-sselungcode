@@ -22,7 +22,6 @@ namespace binaerercodeverschluesselung_RoNi
                 {
                     binTxt += 1;
                 }
-               else { }
             }
         }
     }
