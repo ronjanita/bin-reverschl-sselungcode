@@ -1,11 +1,4 @@
-﻿using binaerercodeverschluesselung_RoNi;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace binaerercodeverschluesselung
+﻿namespace binaerercodeverschluesselung_RoNi
 {
     class ConsoleOutput
     {
