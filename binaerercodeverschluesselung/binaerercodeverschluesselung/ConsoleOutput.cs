@@ -16,11 +16,12 @@ namespace binaerercodeverschluesselung
             string UserInput = Console.ReadLine();
             if (UserInput == "E")
             {
-                Console.WriteLine($"Your generated ecryption is: {binaryToText} ");
+                Console.WriteLine("Enter the binary code that you want to encrypt:");
+                Console.WriteLine($"Your generated ecryption is: {textToBinary} ");
             }
             if (UserInput == "D")
             {
-                Console.WriteLine($"Your generated decryption is {textToBinary} ");
+                Console.WriteLine($"Your generated decryption is {binaryToText} ");
             }
             else
             {
