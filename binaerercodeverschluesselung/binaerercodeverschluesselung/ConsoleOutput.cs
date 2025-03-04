@@ -13,12 +13,12 @@ namespace binaerercodeverschluesselung
         {
             Console.WriteLine("Welcome to this binary encryption/ decryption program!");
             Console.WriteLine("Would you like to encrypt(E) or decrypt(D) ?");
-            string EncDec = Console.ReadLine();
-            if (EncDec == "E")
+            string UserInput = Console.ReadLine();
+            if (UserInput == "E")
             {
                 Console.WriteLine($"Your generated ecryption is: {binaryToText} ");
             }
-            if (EncDec == "D")
+            if (UserInput == "D")
             {
                 Console.WriteLine($"Your generated decryption is {textToBinary} ");
             }
