@@ -25,10 +25,6 @@
                 BinaryToText binaryToText = new BinaryToText(input);
                 Console.WriteLine("Your generated decryption is:" + binaryToText.converted);
             }
-            else
-            {
-                Console.WriteLine("Invalid input. please try again.");
-            }
         }
     }
 }
