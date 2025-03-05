@@ -2,6 +2,7 @@
 {
     internal class TextToBinary
     {
+        public string converted = "";
         public TextToBinary(string binTxt)
         {
             int[] binarynumbers = { 128, 64, 32, 16, 8, 4, 2, 1 };
@@ -13,7 +14,7 @@
                 char BinTxt = (char)binarynumbers[i];
                 if (char.IsLetter(BinTxt))
                 {
-                    binTxt += 1;
+                    converted += 1;
                 }
             }
         }
